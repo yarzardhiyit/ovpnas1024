@@ -1,4 +1,4 @@
-# ovpnas1024
+# OpenVPN Access Server 1024CU
 OpenVPN AS
 ```
 sudo su

@@ -19,7 +19,7 @@ date +"		%A, %d-%m-%Y" | lolcat
 date +"		%H:%M:%S %Z" | lolcat
 echo ""
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Available Commands:" ; tput sgr0 ; echo ""
-tput setaf 2 ; tput bold ; printf '%s' "addhost" | lolcat ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Add 'host' to list of allowed domain in Squid" | lolcat ;
+tput setaf 2 ; tput bold ; printf '%s' "addhost - Add 'host' to list of allowed domain in Squid" | lolcat ;
 tput setaf 2 ; tput bold ; printf '%s' "alterarlimite" | lolcat ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Change the max of concurrent connections allowed" | lolcat ; 
 tput setaf 2 ; tput bold ; printf '%s' "alterarsenha" | lolcat ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Change a user's password" | lolcat ; 
 tput setaf 2 ; tput bold ; printf '%s' "criarusuario" | lolcat ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Create SSH/OVPN user" | lolcat ; 

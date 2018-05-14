@@ -19,38 +19,38 @@ date +"		%A, %d-%m-%Y" | lolcat
 date +"		%H:%M:%S %Z" | lolcat
 echo ""
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "Available Commands:" ; tput sgr0 ; echo ""
-tput setaf 2 ; tput bold ; printf '%s' "addhost - Add 'host' to list of allowed domain in Squid" | lolcat ;
-tput setaf 2 ; tput bold ; printf '%s' "alterarlimite - Change the max of concurrent connections allowed" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "alterarsenha - Change a user's password" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "criarusuario - Create SSH/OVPN user" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "delhost - Remove 'host' from list of allowed domains in Squid" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "expcleaner - Remove expired SSH users" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "mudardata - Change a user's expiration date" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "remover - Remove SSH user" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "sshlimiter - Limit the simultaneous connections of users" | lolcat ; 
-tput setaf 2 ; tput bold ; printf '%s' "sshmonitor - Monitoring the simultaneous connections" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "addhost - Add 'host' to list of allowed domain in Squid" | lolcat ;
+tput setaf 2 ; tput bold ; printf '%s\n' "alterarlimite - Change the max of concurrent connections allowed" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "alterarsenha - Change a user's password" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "criarusuario - Create SSH/OVPN user" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "delhost - Remove 'host' from list of allowed domains in Squid" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "expcleaner - Remove expired SSH users" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "mudardata - Change a user's expiration date" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "remover - Remove SSH user" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "sshlimiter - Limit the simultaneous connections of users" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "sshmonitor - Monitoring the simultaneous connections" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "userbackup - Create a copy of all users and passwords" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "userbackup - Create a copy of all users and passwords" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "badvpnsetup - Automatically compile and install BadVPN" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "badvpnsetup - Automatically compile and install BadVPN" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "tcptweaker - TCP tweaking to reduce latency and improve speed" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "tcptweaker - TCP tweaking to reduce latency and improve speed" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "openvpnsetup - OpenVpn installer with TCP protocol" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "openvpnsetup - OpenVpn installer with TCP protocol" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "speedtest - Internal Server Connection Test" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "speedtest - Internal Server Connection Test" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "otimizar - Update packages, clear RAM and cache" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "otimizar - Update packages, clear RAM and cache" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "detalhes - Server information (Uptime, RAM etc)" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "detalhes - Server information (Uptime, RAM etc)" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "atualizar - Update script with new functions" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "atualizar - Update script with new functions" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "drop - Install and configure DropBear" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "drop - Install and configure DropBear" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "chaveuser - Create a Public Key for a user" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "chaveuser - Create a Public Key for a user" | lolcat ; 
 tput sgr0
-tput setaf 2 ; tput bold ; printf '%s' "chaveroot - Create a Public Key for the root user" | lolcat ; 
+tput setaf 2 ; tput bold ; printf '%s\n' "chaveroot - Create a Public Key for the root user" | lolcat ; 
 tput sgr0
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%30s%s%-10s\n' "New Commands:" ; tput sgr0 ; 
 echo ""
